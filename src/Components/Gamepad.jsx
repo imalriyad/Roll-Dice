@@ -85,7 +85,7 @@ const Gamepad = () => {
 
       <div className="md:w-[250px] w-[170px] mx-auto md:mt-20 md:mb-10 my-10">
         <div className="cursor-pointer" onClick={randomNumGenerator}>
-          <img src={`/public/dice_${randomDice}.png`} alt="" />         
+          <img src={`./public/dice_${randomDice}.png`} alt="" />         
         </div>
         <h1 className="text-center font-semibold">Click on Dice to roll</h1>
 
